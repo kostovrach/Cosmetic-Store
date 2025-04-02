@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Overpass";
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 40px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.header__label {
+  font-size: 32px;
+  color: black;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav ul {
+  display: flex;
+  font-size: 18px;
+}
+.header__nav li {
+  margin: 0 15px;
+  color: rgba(0, 0, 0, 0.6039215686);
+}
+.header__iconbox i {
+  font-size: 22px;
+  margin: 0 5px;
+  color: #000;
+}
+
+.window {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.window__wrapper {
+  border: 2px solid rgba(42, 37, 75, 0.1725490196);
+  border-radius: 20px;
+  padding: 30px 60px;
+}
+.window__title {
+  text-align: center;
+  color: #2A254B;
+  font-size: 24px;
+}
+
+.form {
+  margin: 30px 0 0 0;
+}
+.form__item label {
+  font-size: 18px;
+}
+.form__item input {
+  width: 400px;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 15px 0;
+  border: 2px solid rgba(42, 37, 75, 0.1725490196);
+  border-radius: 20px;
+}
+.form__button {
+  color: #FFF;
+  background: #F6623E;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  padding: 10px 15px;
+}
+
+.footer {
+  background: #F6623E;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer__wrapper {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__iconbox i {
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer__info {
+  color: rgba(0, 0, 0, 0.6039215686);
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__info a {
+  color: inherit;
+}

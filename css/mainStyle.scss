@@ -1,0 +1,231 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+//
+body{
+    font-family: "Overpass";
+    margin: 0 auto;
+}
+._content{
+    padding: 0 40px;
+}
+._cut{
+    background: #FFF8F6;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+#orange{
+    color: #F6623E;
+    font-size: 32px;
+    font-weight: 600;
+}
+#crossed{
+    text-decoration: line-through;
+    font-size: 24px;
+    color: #0000009a;
+}
+.icon-ecology{
+    background: #F6623E;
+}
+//
+.header{
+    padding: 20px 40px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    &__label{
+        font-size: 32px;
+        color: black;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav ul{
+        display: flex;
+        font-size: 18px;
+    }
+    &__nav li{
+        margin: 0 15px;
+        color: #0000009a;
+    }
+    &__iconbox i{
+        font-size: 22px;
+        margin: 0 5px;
+        color: #000;
+    }
+}
+.main{
+    &__wrapper{
+        padding: 130px 0;
+        display: flex;
+    }
+    &__subtitle{
+        color: #F6623E;
+        font-weight: 800;
+        font-size: 26px;
+    }
+    &__title{
+        margin: 40px 0;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 90%;
+    }
+    &__text{
+        margin: 0 0 60px 0;
+        color: #000000b6;
+        font-size: 20px;
+        line-height: 140%;
+    }
+    &__button{
+        color: #FFF;
+        font-size: 18px;
+        padding: 15px 30px;
+        background: #F6623E;
+    }
+}
+.advantages{
+    &__wrapper{
+        padding: 90px 0;
+    }
+    &__impf ul{
+        font-size: 24px;
+        font-weight: 600;
+        color: #0000009a;
+        display: flex;
+        justify-content: center;
+    }
+    &__impf li{
+        margin: 0 50px;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 140%;
+        text-align: center;
+        margin: 90px 0 0 0;
+    }
+    &__box{
+        display: flex;
+        justify-content: center;
+        margin: 60px 0 0 0;
+    }
+    &__item{
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon{
+        font-size: 80px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    &__subtitle{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+    &__text{
+        font-size: 16px;
+        color: #0000009a;
+        text-align: center;
+        line-height: 180%;
+    }
+}
+.sale{
+    display: flex;
+    padding: 80px 40px;
+    &__img{
+        padding: 90px;
+        background: #FEF0E7;
+        border-radius: 50%;
+    }
+    &__textbox{
+        margin: 0 0 0 230px;
+    }
+    &__title{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    &__price-box{
+        margin: 33px 0;
+    }
+    &__discription{
+        font-size: 18px;
+        color: #0000009a;
+        line-height: 160%;
+        margin: 0 0 45px 0;
+    }
+    &__button{
+        color: #000;
+        font-size: 14px;
+        padding: 16px 32px;
+        border: 1px solid #F6623E;
+    }
+}
+.news{
+    &__wrapper{
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    &__subtitle{
+        margin: 15px 0 30px 0;
+        font-size: 18px;
+        color: #0000009a;
+        line-height: 160%;
+    }
+    &__cards{
+        display: flex;
+    }
+    &__item{
+        max-width: 362px;
+        margin: 0 35px;
+    }
+    &__dTitle{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    &__dDiscription{
+        color: #0000009a;
+        font-size: 16px;
+    }
+    &__dButton{
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+}
+.footer{
+    background: #F6623E;
+    &__wrapper{
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__iconbox i{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    &__info{
+        color: #0000009a;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &__info a{
+        color: inherit;
+    }
+}

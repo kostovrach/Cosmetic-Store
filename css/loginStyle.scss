@@ -1,0 +1,99 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Overpass";
+    margin: 0 auto;
+}
+.header{
+    padding: 20px 40px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    &__label{
+        font-size: 32px;
+        color: black;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav ul{
+        display: flex;
+        font-size: 18px;
+    }
+    &__nav li{
+        margin: 0 15px;
+        color: #0000009a;
+    }
+    &__iconbox i{
+        font-size: 22px;
+        margin: 0 5px;
+        color: #000;
+    }
+}
+.window{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper{
+        border: 2px solid #2a254b2c;
+        border-radius: 20px;
+        padding: 30px 60px;
+    }
+    &__title{
+        text-align: center;
+        color: #2A254B;
+        font-size: 24px;
+    }
+}
+.form{
+    margin: 30px 0 0 0;
+    &__item label{
+        font-size: 18px;
+    }
+    &__item input{
+        width: 400px;
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 15px 0;
+        border: 2px solid #2a254b2c;
+        border-radius: 20px;
+    }
+    &__button{
+        color: #FFF;
+        background: #F6623E;
+        border-radius: 5px;
+        font-size: 18px;
+        width: 100%;
+        margin: 30px auto 0 auto;
+        padding: 10px 15px;
+    }
+}
+.footer{
+    background: #F6623E;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    &__wrapper{
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__iconbox i{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    &__info{
+        color: #0000009a;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &__info a{
+        color: inherit;
+    }
+}
